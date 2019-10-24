@@ -1,6 +1,9 @@
 .navbar{
     background-color: rgba(0, 0, 0, 0.233);
-    padding: 10px;    
+    padding: 10px;  
+    text-align: center;  
+    align-items: center;
+    justify-content: center;
 }
 .navbar-iten{
     padding-left: 2%;    
@@ -14,7 +17,7 @@
 .navbar-iten-brand{
     padding-left: 2%;    
     vertical-align: middle;  
-    width: 50px;
+    width: 50px;    
     height: 50px;    
 }
 .social-media{
@@ -55,4 +58,14 @@
 }
 .description{
     text-align: center;
+}
+.brandpos{
+    float: left;
+    margin-left: 30px;
+}
+.itenspos{
+
+}
+.clear{
+    clear: both;
 }
