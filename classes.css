@@ -3,7 +3,8 @@
     padding: 10px;  
     text-align: center;  
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    box-shadow:         0px 7px 0px rgba(0, 0, 0, 0.10);
 }
 .navbar-iten{
     padding-left: 2%;    
@@ -39,12 +40,17 @@
     display: inline-block;  
     padding: 10px;    
 }
-.games-lobby{
-    display: inline-block;
+.games-lobby{    
     margin-top: 30px;
     margin-bottom: 30px;    
     text-align: center;
     background-color: #800000;
+    width: 100%;
+    padding: 10px;
+}
+.games-list{
+    display: inline-block;       
+    text-align: center;    
     width: 100%;
 }
 .game-img{
@@ -69,4 +75,76 @@
 }
 .clear{
     clear: both;
+}
+.clearButton{
+    background: 0%;
+    color: white;    
+    font-size: 32px;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    width: 450px; 
+    height: 70px;   
+    text-transform: uppercase;       
+}
+.clearButton:hover{
+    background: 20%;
+    background-color: #8b1a1a;
+    color: white;    
+    font-size: 32px;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 3px;        
+    text-transform: uppercase;  
+    animation:slidein 2s;  
+    -moz-animation:slidein 1s; /* Firefox */
+    -webkit-animation:slidein 1s; /* Safari e Chrome */
+    -o-animation:slidein 1s; /* Opera */
+    width: 500px;     
+}
+.clearButton:not(:hover){
+    -moz-animation:slideout 1s; /* Firefox */
+    -webkit-animation:slideout 1s; /* Safari e Chrome */
+    -o-animation:slideout 1s; /* Opera */
+}
+
+@keyframes slidein {
+    from {
+      width: 450px;      
+    }
+        
+    to {
+       width:500px;
+    }
+}
+
+@-webkit-keyframes slidein /* Safari e Chrome */{
+from {
+    width: 450px;      
+}
+      
+  to {
+     width:500px;
+  }
+}
+
+@keyframes slideout {
+    from {
+      width: 500px;      
+    }
+        
+    to {
+       width:450px;
+    }
+}
+
+@-webkit-keyframes slideout /* Safari e Chrome */{
+from {
+    width: 500px;      
+}
+      
+  to {
+     width:450px;
+  }
 }
