@@ -10,6 +10,7 @@
     vertical-align: middle;
     color: rgb(187, 187, 187); 
     text-transform: uppercase;   
+    text-align: center;
 }
 .navbar-iten:hover{
     color: white;      
