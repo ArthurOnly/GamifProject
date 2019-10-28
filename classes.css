@@ -48,9 +48,9 @@
 .position-50x50-text{
     text-align: justify;
     width: 48%;  
-    display: inline-block;  
+    display: inline-block;    
+    vertical-align: top;  
     padding: 10px; 
-    vertical-align: top;   
 }
 .position-50x50-img{
     text-align: center;
@@ -64,7 +64,8 @@
     text-align: center;
     background-color: #800000;
     width: 100%;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
 }
 .games-list{
     display: inline-block;       
@@ -113,7 +114,8 @@
     border-width: 3px;
     width: 450px; 
     height: 70px;   
-    text-transform: uppercase;       
+    text-transform: uppercase;  
+    cursor: pointer;     
 }
 .clearButton:hover{
     background: 20%;
