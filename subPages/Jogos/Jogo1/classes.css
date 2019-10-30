@@ -4,28 +4,47 @@
     text-align: center;  
     align-items: center;
     justify-content: center;    
-    box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.10);
+    box-shadow:         0px 7px 0px rgba(0, 0, 0, 0.10);
 }
 .navbar-iten{
-    padding-left: 1%; 
-    padding-right: 1%;  
+    padding-left: 2%;  
     display:inline-block;  
     vertical-align: middle;
     color: rgb(187, 187, 187); 
     text-transform: uppercase;   
-    text-align: center;      
+    text-align: center;
 }
 .navbar-iten:hover{
-    color: white;       
+    color: white;      
 }
-
 .navbar-iten-brand{
-    padding-left: 1%; 
-    padding-right: 1%;   
+    padding-left: 2%;    
     vertical-align: middle;  
     width: 50px;    
     height: 50px;    
 }
+.gameHeader{
+    margin: 10px;
+    padding: 10px;    
+}
+.gameLogo{
+    width: 200px;
+    height: 200px;    
+}
+.games{
+    display: inline-block;
+}
+.gameTitle{
+    margin: 10px;
+    display: inline-flex;
+    vertical-align: center;
+}
+.developer{
+    margin: 10px;
+    display: inline-flex;
+    vertical-align: center;
+}
+
 .social-media{
     text-align: center;
     text-transform: uppercase;
@@ -226,6 +245,16 @@
         
     to {
         transform: scale(1.1);
+    }
+}
+
+@-webkit-keyframes downIMG /* Safari e Chrome */{
+    from {
+        transform: scale(1.1);   
+    }
+      
+    to {
+        transform: scale(1);
     }
 }
 
