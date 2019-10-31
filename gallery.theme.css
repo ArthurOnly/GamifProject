@@ -18,7 +18,7 @@
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: #e02222;
+  /* background: #e02222; */
 }
 .gallery .controls {
   position: absolute;
