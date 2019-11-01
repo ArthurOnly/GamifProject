@@ -12,12 +12,12 @@
 	Theme controls how everything looks in Gallery CSS.
 */
 .gallery {
-  position: relative;
+  position: relative; 
 }
 .gallery .item {
   height: 400px;
   overflow: hidden;
-  text-align: center;
+  text-align: center;  
   /* background: #e02222; */
 }
 .gallery .controls {
@@ -33,4 +33,7 @@
   text-align: center;
   text-decoration: none;
   transition: color .1s;
+}
+.marginAdjust{
+  margin: 0;
 }
