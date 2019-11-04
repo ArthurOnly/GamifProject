@@ -15,7 +15,7 @@
     <navbar>
         <div class="navbar">            
             <div>
-                <a class="navbar-iten animated fadeIn fadeInRight" href="#">Inicio</a>
+                <a onclick=sizeOfThings() class="navbar-iten animated fadeIn fadeInRight" href="#">Inicio</a>
                 <a class="navbar-iten animated fadeIn fadeInRight" href="#">Biblioteca</a>
                 <img class="navbar-iten-brand animated fadeIn delay-1s" src="imagens/logoSite.png"/> 
                 <a class="navbar-iten animated fadeIn fadeInLeft" href="#">Desenvolvedores</a>
@@ -53,7 +53,7 @@
         <div class="position-50x50-img animated bounceInLeft">
             <img src="imagens/page.png" width="480px" height="300px">
         </div>
-        <div class="position-50x50-text animated bounceInLeft">
+        <div id="texto" class="position-50x50-text animated bounceInLeft">
             <h1>O SITE</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam maiores fuga? Maxime a nostrum incidunt cum quod quas sapiente numquam obcaecati eos reprehenderit 
             vel eaque repellat, cumque aspernatur esse?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam maiores fuga? Maxime a nostrum incidunt cum quod quas sapiente numquam obcaecati eos reprehenderit 
@@ -87,6 +87,26 @@
     </section>
     <footer>
         <h1>Todos os direitos reservados ®</h1>
-    </footer>    
+    </footer> 
+
+    <script>
+        function sizeOfThings(){
+            var windowWidth = window.innerWidth
+            var windowHeight = window.innerHeight
+  
+            var screenWidth = screen.width
+            var screenHeight = screen.height;
+            
+            alert(windowWidth)
+        };
+
+        document.body.onresize = function() {
+            if (document.body.screenWidth < 1200) {
+                alert(body.screenWidth);
+                document.getElementById("texto").classList.remove("position-50x50-text");
+                document.getElementById("texto").classList.add("position-50x50-text-mobile");
+            }
+        };
+    </script>  
 </body>
 </html>

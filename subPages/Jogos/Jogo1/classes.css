@@ -33,75 +33,30 @@
 }
 .games{
     display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    text-align: left;
 }
 .gameTitle{
-    margin: 10px;
+    margin-bottom: 0px;
     display: inline-flex;
-    vertical-align: center;
+    vertical-align: top;
+    font-size: 36px;    
 }
 .developer{
-    margin: 10px;
+    margin-top: 0px;
     display: inline-flex;
     vertical-align: center;
 }
 
-.social-media{
-    text-align: center;
-    text-transform: uppercase;
-}
-.social-media-icon{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(0, 0, 0);
-    display: inline;
-    border-radius: 100%;
-    margin: 20px;        
-}
-.social-media-icon:hover{
-    -moz-animation:upperIMG 1s; /* Firefox */
-    -webkit-animation:upperIMG 1s; /* Safari e Chrome */
-    -o-animation:upperIMG 1s; /* Opera */
-    transform: scale(1.1); 
-}
-.social-media-icon:not(:hover){
-    -moz-animation:downIMG 0.5s; /* Firefox */
-    -webkit-animation:downIMG 0.5s; /* Safari e Chrome */
-    -o-animation:downIMG 0.5s; /* Opera */ 
-}
-.position-50x50-text{
-    text-align: justify;
-    width: 48%;  
-    display: inline-block;    
-    vertical-align: top;  
-    padding: 10px; 
-}
-.position-50x50-img{
-    text-align: center;
-    width: 48%;  
-    display: inline-block;  
-    padding: 10px;    
-}
-.games-lobby{    
-    margin-top: 30px;
-    margin-bottom: 30px;    
-    text-align: center;
-    background-color: #800000;
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;   
-}
-.games-list{
-    display: inline-block;       
-    text-align: center;    
-    width: 100%;
-}
 .game-img{
-    width: 300px;
-    height: 150px;
+    width: 220px;
+    height: 300px;
     background-color: black;
     display: inline-block;
     margin: 10px;    
 }
+
 .game-img:hover{
     -moz-animation:upperIMG 1s; /* Firefox */
     -webkit-animation:upperIMG 1s; /* Safari e Chrome */
@@ -114,16 +69,11 @@
     -webkit-animation:downIMG 0.5s; /* Safari e Chrome */
     -o-animation:downIMG 0.5s; /* Opera */    
 }
+
 .description{
-    text-align: center;
+    text-align: justify;           
 }
-.brandpos{
-    float: left;
-    margin-left: 30px;
-}
-.clear{
-    clear: both;
-}
+
 .clearButton{
     background: 0%;
     color: white;    
@@ -132,14 +82,14 @@
     border-color: white;
     border-style: solid;
     border-width: 3px;
-    width: 450px; 
-    height: 70px;   
+    width: 250px; 
+    height: 60px;   
     text-transform: uppercase;  
-    cursor: pointer;     
+    cursor: pointer;  
+    margin-top: 20px;    
 }
 .clearButton:hover{
-    background: 20%;
-    background-color: #8b1a1a;
+    background: 20%;    
     color: white;    
     font-size: 32px;
     border-radius: 50px;
@@ -150,7 +100,7 @@
     -moz-animation:slidein 1s; /* Firefox */
     -webkit-animation:slidein 1s; /* Safari e Chrome */
     -o-animation:slidein 1s; /* Opera */
-    width: 500px;     
+    width: 300px;     
 }
 .clearButton:not(:hover){
     -moz-animation:slideout 0.5s; /* Firefox */
@@ -158,63 +108,73 @@
     -o-animation:slideout 0.5s; /* Opera */
 }
 
+.game-images{
+    text-align: center;
+    background: #800000;
+    padding-top:20px;   
+    padding-bottom:20px;     
+    margin: 0;
+    margin-right: 0px;
+    width: 100%;
+}
+
 @keyframes slidein {
     from {
-      width: 450px;      
+      width: 250px;      
     }
         
     to {
-       width:500px;
+       width:300px;
     }
 }
 
 @-webkit-keyframes slidein /* Safari e Chrome */{
     from {
-        width: 450px;      
+        width: 250px;      
     }
       
     to {
-        width:500px;
+        width:300px;
     }
 }
 
 @-moz-keyframes slidein /* Firefox */{
     from {
-        width: 450px;      
+        width: 250px;      
     }
           
     to {
-         width:500px;
+         width:300px;
     }
 }
 
 @keyframes slideout {
     from {
-      width: 500px;      
+      width: 300px;      
     }
         
     to {
-       width:450px;
+       width:250px;
     }
 }
 
 @-webkit-keyframes slideout /* Safari e Chrome */{
     from {
-        width: 500px;      
+        width: 300px;      
     }
       
     to {
-       width:450px;
+       width:250px;
     }
 }
 
 @-moz-keyframes slideout /* Firefox */{
     from {
-        width: 500px;      
+        width: 300px;      
     }
       
     to {
-       width:450px;
+       width:250px;
     }
 }
 

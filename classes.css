@@ -56,6 +56,13 @@
     vertical-align: top;  
     padding: 10px; 
 }
+.position-50x50-text-mobile{
+    text-align: justify;
+    width: 80%;  
+    display: inline-block;    
+    vertical-align: top;  
+    padding: 10px; 
+}
 .position-50x50-img{
     text-align: center;
     width: 48%;  
