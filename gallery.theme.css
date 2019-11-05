@@ -1,3 +1,20 @@
+@media (max-width: 768px){    
+  #carrousel {
+    height: 250px;  
+  }
+}
+@media (min-width: 768px){    
+  #carrousel {
+    height: 500px; 
+  }
+}
+
+#carrousel{
+  width: 100%;
+  margin-bottom: 10px;          
+  text-align: center;
+}
+
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
@@ -14,11 +31,9 @@
 .gallery {
   position: relative; 
 }
-.gallery .item {
-  height: 400px;
+.gallery .item {  
   overflow: hidden;
-  text-align: center;  
-  /* background: #e02222; */
+  text-align: center;    
 }
 .gallery .controls {
   position: absolute;
