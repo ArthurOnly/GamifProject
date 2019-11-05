@@ -16,13 +16,14 @@
     <navbar>
         <div class="navbar">            
             <div>
+                <img class="navbar-iten-brand brand-Ssize animated fadeIn delay-1s" src="imagens/logoSite.png"/> 
                 <a class="navbar-iten iten-Xsize animated fadeIn fadeInRight" href="#">Inicio</a>
                 <a class="navbar-iten iten-Xsize animated fadeIn fadeInRight" href="#">Biblioteca</a>
-                <img class="navbar-iten-brand animated fadeIn delay-1s" src="imagens/logoSite.png"/> 
+                <img class="navbar-iten-brand brand-Xsize animated fadeIn delay-1s" src="imagens/logoSite.png"/> 
                 <a class="navbar-iten iten-Xsize animated fadeIn fadeInLeft" href="#">Desenvolvedores</a>
                 <a class="navbar-iten iten-Xsize animated fadeIn fadeInLeft" href="subPages/Sobre/sobre.html">Sobre</a>                                                             
             </div>
-            <div class="clear"></div>                       
+            <div class="clear" onclick=></div>                       
         </div>
     </navbar>
 
@@ -90,24 +91,9 @@
         <h1>Todos os direitos reservados ®</h1>
     </footer> 
 
+    <script src=“js/jquery.js”></script>
     <script>
-        function sizeOfThings(){
-            var windowWidth = window.innerWidth
-            var windowHeight = window.innerHeight
-  
-            var screenWidth = screen.width
-            var screenHeight = screen.height;
-            
-            alert(windowWidth)
-        };
-
-        document.body.onresize = function() {
-            if (document.body.screenWidth < 1200) {
-                alert(body.screenWidth);
-                document.getElementById("texto").classList.remove("position-50x50-text");
-                document.getElementById("texto").classList.add("position-50x50-text-mobile");
-            }
-        };
+        
     </script>  
 </body>
 </html>
