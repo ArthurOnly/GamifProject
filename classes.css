@@ -87,25 +87,39 @@
     padding-top: 10px;
     padding-bottom: 10px;   
 }
-.games-list{
-    display: inline-block;       
+.games-list{      
     text-align: center;    
     width: 100%;
 }
 .game-img{
     width: 300px;
-    height: 150px;
-    background-color: black;
-    display: inline-block;
-    margin: 10px;    
+    height: 150px;    
+}
+.gameTitle{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 10px;
+    text-transform: uppercase;  
+    opacity: 0;
+    pointer-events: none;  
 }
 .game-img:hover{
     -moz-animation:upperIMG 1s; /* Firefox */
     -webkit-animation:upperIMG 1s; /* Safari e Chrome */
     -o-animation:upperIMG 1s; /* Opera */
-    transform: scale(1.1);    
+    transform: scale(1.1);        
 }
-
+.gameCard{
+    display: inline-block;
+    margin: 10px;    
+}
+.gameCard:hover > .gameTitle{
+    -moz-animation:fadeIn 1s; /* Firefox */
+    -webkit-animation:fadeIn 1s; /* Safari e Chrome */    
+    opacity: 100;
+    z-index: 1;     
+    background: rgba(0, 0, 0, 0.3)
+}
 .game-img:not(:hover){
     -moz-animation:downIMG 0.5s; /* Firefox */
     -webkit-animation:downIMG 0.5s; /* Safari e Chrome */
@@ -142,6 +156,36 @@
     border-width: 3px;        
     text-transform: uppercase; 
         
+}
+
+@keyframes fadein {
+    from {
+      opacity: 0;      
+    }
+        
+    to {
+        opacity: 100;
+    }
+}
+
+@-webkit-keyframes fadein /* Safari e Chrome */{
+    from {
+        opacity: 0;      
+      }
+          
+      to {
+          opacity: 100;
+      }
+}
+
+@-moz-keyframes fadein /* Firefox */{
+    from {
+        opacity: 0;      
+      }
+          
+      to {
+          opacity: 100;
+      }
 }
 
 @keyframes slidein {
