@@ -11,6 +11,19 @@
         display: inline-block;
     }
 }
+@media (max-width: 380px){            
+    .navbar-iten{        
+        font-size: 9px;
+        padding-left: 1%; 
+        padding-right: 1%;
+    }
+    .brand-Xsize{
+        display: none;
+    }
+    .brand-Ssize{
+        display: inline-block;
+    }
+}
 @media (min-width: 768px){         
     .brand-Xsize{
         display: inline-block;

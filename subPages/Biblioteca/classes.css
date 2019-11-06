@@ -1,11 +1,15 @@
+@media (max-width: 768px){    
+    .secondarySec{
+        text-align: center;        
+    }   
+    .primarySec{
+        text-align: center;
+    }
+}
 .games-lobby{    
-    margin-top: 30px;
-    margin-bottom: 30px;    
-    text-align: center;
-    background-color: #800000;
+    margin-top: 30px;             
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;   
+    padding-top: 10px;      
 }
 .games-list{
     display: inline-block;       
@@ -40,6 +44,7 @@
     -webkit-animation:fadeIn 1s; /* Safari e Chrome */    
     opacity: 100;
     z-index: 1; 
+    background: rgba(0, 0, 0, 0.3)
 }
 .game-img:not(:hover){
     -moz-animation:downIMG 0.5s; /* Firefox */
@@ -88,6 +93,16 @@
     -moz-animation:slideout 0.5s; /* Firefox */
     -webkit-animation:slideout 0.5s; /* Safari e Chrome */
     -o-animation:slideout 0.5s; /* Opera */
+}
+
+.secondarySec{
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 20px;  
+    
+}
+
+.primarySec{
+    padding: 20px;    
 }
 
 @keyframes fadein {

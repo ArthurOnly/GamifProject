@@ -1,3 +1,35 @@
+@media (max-width: 768px){         
+    .gameTitle{
+        font-size: 24px;        
+    }
+    .clearButton{
+        width: 170px; 
+        height: 45px;  
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px){         
+    .gameTitle{
+        font-size: 36px;        
+    }    
+    .clearButton{
+        width: 250px; 
+        height: 60px; 
+        font-size: 32px; 
+    }
+    .clearButton:hover{
+        animation:slidein 2s;  
+        -moz-animation:slidein 1s; /* Firefox */
+        -webkit-animation:slidein 1s; /* Safari e Chrome */
+        -o-animation:slidein 1s; /* Opera */
+        width: 300px;   
+    }
+    .clearButton:not(:hover){
+        -moz-animation:slideout 0.5s; /* Firefox */
+        -webkit-animation:slideout 0.5s; /* Safari e Chrome */
+        -o-animation:slideout 0.5s; /* Opera */  
+    }
+}
 .gameHeader{
     margin: 10px;
     padding: 10px;    
@@ -10,13 +42,12 @@
     display: inline-block;
     vertical-align: top;
     margin: 20px;
-    text-align: left;
+    text-align: center;
 }
 .gameTitle{
     margin-bottom: 0px;
     display: inline-flex;
-    vertical-align: top;
-    font-size: 36px;    
+    vertical-align: top;     
 }
 .developer{
     margin-top: 0px;
@@ -51,36 +82,22 @@
 
 .clearButton{
     background: 0%;
-    color: white;    
-    font-size: 32px;
+    color: white;     
     border-radius: 50px;
     border-color: white;
     border-style: solid;
-    border-width: 3px;
-    width: 250px; 
-    height: 60px;   
+    border-width: 3px;       
     text-transform: uppercase;  
     cursor: pointer;  
     margin-top: 20px;    
 }
 .clearButton:hover{
     background: 20%;    
-    color: white;    
-    font-size: 32px;
+    color: white;      
     border-radius: 50px;
     border-color: white;
     border-width: 3px;        
-    text-transform: uppercase;  
-    animation:slidein 2s;  
-    -moz-animation:slidein 1s; /* Firefox */
-    -webkit-animation:slidein 1s; /* Safari e Chrome */
-    -o-animation:slidein 1s; /* Opera */
-    width: 300px;     
-}
-.clearButton:not(:hover){
-    -moz-animation:slideout 0.5s; /* Firefox */
-    -webkit-animation:slideout 0.5s; /* Safari e Chrome */
-    -o-animation:slideout 0.5s; /* Opera */
+    text-transform: uppercase;      
 }
 
 .game-images{
