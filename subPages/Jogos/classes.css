@@ -7,6 +7,14 @@
         height: 45px;  
         font-size: 18px;
     }
+    .game-logo{
+        width: 150px;
+        height: 150px; 
+        object-fit: cover;       
+    }
+    .games{
+        margin: 5px;
+    }
 }
 @media (min-width: 768px){         
     .gameTitle{
@@ -22,30 +30,38 @@
         -moz-animation:slidein 1s; /* Firefox */
         -webkit-animation:slidein 1s; /* Safari e Chrome */
         -o-animation:slidein 1s; /* Opera */
-        width: 300px;   
+        width: 300px;  
+        background: 100%;
+        border-color: #700000;        
     }
     .clearButton:not(:hover){
         -moz-animation:slideout 0.5s; /* Firefox */
         -webkit-animation:slideout 0.5s; /* Safari e Chrome */
         -o-animation:slideout 0.5s; /* Opera */  
     }
+    .game-logo{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .games{
+        margin: 20px;
+    }
 }
 .gameHeader{
     margin: 10px;
-    padding: 10px;    
-}
-.gameLogo{
-    width: 200px;
-    height: 200px;    
+    padding: 10px; 
+    margin-left: 8%;  
 }
 .games{
+    margin-top: 0px;
     display: inline-block;
-    vertical-align: top;
-    margin: 20px;
+    vertical-align: top;    
     text-align: center;
 }
 .gameTitle{
     margin-bottom: 0px;
+    margin-top: 0px;
     display: inline-flex;
     vertical-align: top;     
 }
@@ -77,34 +93,31 @@
 }
 
 .description{
-    text-align: justify;           
+    text-align: justify;  
+    width: 80%;         
 }
 
 .clearButton{
     background: 0%;
     color: white;     
-    border-radius: 50px;
-    border-color: white;
+    border-radius: 50px;    
     border-style: solid;
     border-width: 3px;       
     text-transform: uppercase;  
     cursor: pointer;  
-    margin-top: 20px;    
+    margin-top: 20px;      
 }
-.clearButton:hover{
-    background: 20%;    
-    color: white;      
-    border-radius: 50px;
-    border-color: white;
+.clearButton:hover{      
+    color: white;
+    background: #800000;      
+    border-radius: 50px;    
     border-width: 3px;        
-    text-transform: uppercase;      
+    text-transform: uppercase;        
 }
 
 .game-images{
     text-align: center;
-    background: #800000;
-    padding-top:20px;   
-    padding-bottom:20px;     
+    background: #800000;          
     margin: 0;
     margin-right: 0px;
     width: 100%;
@@ -112,61 +125,82 @@
 
 @keyframes slidein {
     from {
-      width: 250px;      
+      width: 250px; 
+      background: 0%; 
+      border-color: white;    
     }
         
     to {
        width:300px;
+       border-color: #700000;        
     }
 }
 
 @-webkit-keyframes slidein /* Safari e Chrome */{
     from {
-        width: 250px;      
+        width: 250px; 
+        background: 0%; 
+        border-color: white;       
     }
       
     to {
         width:300px;
+        border-color: #700000; 
     }
 }
 
 @-moz-keyframes slidein /* Firefox */{
     from {
-        width: 250px;      
+        width: 250px; 
+        background: 0%; 
+        border-color: white;       
     }
           
     to {
-         width:300px;
+        width:300px;
+        border-color: #700000;  
     }
 }
 
 @keyframes slideout {
     from {
-      width: 300px;      
+      width: 300px; 
+      background: #800000;  
+      border-color: #700000;       
     }
         
     to {
        width:250px;
+       background: 0%;
+       border-color: white; 
     }
 }
 
 @-webkit-keyframes slideout /* Safari e Chrome */{
     from {
-        width: 300px;      
+        width: 300px; 
+        background: #800000;  
+        border-color: #700000;     
     }
       
     to {
-       width:250px;
+        width:250px;
+        background: 0%;
+        border-color: white; 
     }
 }
 
 @-moz-keyframes slideout /* Firefox */{
     from {
-        width: 300px;      
+        width: 300px; 
+        background: #800000;  
+        border-color: #700000;     
     }
       
     to {
-       width:250px;
+        width:250px;
+        background: 0%;
+        border-color: white; 
     }
 }
 
