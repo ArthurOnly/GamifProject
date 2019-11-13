@@ -111,15 +111,37 @@
 }
 
 .developersRanking{
-    text-align: center;    
+    text-align: center;       
 }
 
 .devList{
     list-style: none;
 }
 
-.listFrist{
-    list-style-image: none;
+.tabelaDevs{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.233);           
+}
+
+.titleTable{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+tr:hover{
+    background-color:#800000;
+    cursor: pointer;
+}
+
+table{
+    margin-bottom: 10px;
+}
+
+tr:nth-child(odd):not(:hover) {
+	background-color:rgba(0, 0, 0, 0.233);
+}
+tr:nth-child(even):not(:hover) {
+	background-color:rgba(0, 0, 0, 0.433);;
 }
 
 @keyframes slidein {
