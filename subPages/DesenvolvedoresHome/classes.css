@@ -14,10 +14,11 @@
     background-color: rgba(0, 0, 0, 0.582); 
 }
 .dev-line{
+    padding: 20px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.164); 
     vertical-align: center;
-    width: 100%;
+    width: 900px;
 }
 .position{
     display: inline-block;
@@ -26,4 +27,19 @@
     font-weight: bold;
     margin-left: 20px;
     text-transform: uppercase;
+}
+.dev-imgsocial{
+    width: 25px;
+}
+.dev-apresentation{
+    float: left;
+}
+.div-socialdev{
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+    width: 40px;
+}
+.clear{
+    clear: both;
 }
