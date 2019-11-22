@@ -40,7 +40,7 @@
         -o-animation:slideout 0.5s; /* Opera */  
     }
     .game-logo{
-        width: 300px;
+        width: 400px;
         height: 300px;
         object-fit: cover;
     }
@@ -50,7 +50,9 @@
     }
 }
 .gameHeader{
-    padding: 10px;  
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;  
 }
 .games{
     margin-top: 0px;
