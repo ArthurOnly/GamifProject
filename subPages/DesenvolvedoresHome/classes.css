@@ -1,5 +1,6 @@
 .developer-Ranking{
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 .dev-img{
     width: 50px;
@@ -33,8 +34,10 @@
 }
 .dev-apresentation{
     float: left;
+    font-family: 'Titillium Web', sans-serif;
 }
 .div-socialdev{
+    margin-top: 10px;
     text-align: right;
     float: right;
     vertical-align: middle;

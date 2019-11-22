@@ -39,6 +39,9 @@
     text-align: center;        
     box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.30);
 }
+.navbar div{
+    margin-left: 60px;
+}
 .navbar-iten{        
     color: rgb(187, 187, 187); 
     text-transform: uppercase; 
@@ -46,8 +49,9 @@
     vertical-align: middle;
     display: inline-block; 
     padding-left: 1%; 
-    padding-right: 1%;        
+    padding-right: 1%;     
 }
+
 .navbar-iten:hover{
     color: white;       
 }
@@ -57,5 +61,6 @@
     padding-right: 1%;   
     vertical-align: middle;  
     width: 50px;    
-    height: 50px;    
+    height: 50px;
+    position: static; 
 }
