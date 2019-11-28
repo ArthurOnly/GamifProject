@@ -40,8 +40,8 @@
         -o-animation:slideout 0.5s; /* Opera */  
     }
     .game-logo{
-        width: 400px;
-        height: 300px;
+        width: 350px;
+        height: 200px;
         object-fit: cover;
     }
     .games{
@@ -73,13 +73,12 @@
 }
 
 .game-img{
-    width: 220px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     object-fit: cover;
     display: inline-block;
     margin: 10px;    
 }
-
 .game-img:hover{
     -moz-animation:upperIMG 1s; /* Firefox */
     -webkit-animation:upperIMG 1s; /* Safari e Chrome */
