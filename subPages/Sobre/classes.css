@@ -235,4 +235,27 @@
 .about{
     width: 900px;
     background-color: rgba(0, 0, 0, 0.233);
+    margin: auto;
+    text-align: center;
+}
+.section1{
+    display: inline-blocks;
+    text-align: center;
+}
+.section2{
+    background-color: rgba(0, 0, 0, 0.233);
+    padding: 20px; 
+    text-align: center;
+}
+.img-s1{
+    text-align: left;
+}
+.img-s2{
+    text-align: right;
+}
+.clear{
+    clear: both;
+}
+.tittle{
+    margin-top: 20px;
 }
