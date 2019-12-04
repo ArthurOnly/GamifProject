@@ -39,9 +39,7 @@
     text-align: center;        
     box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.30);
 }
-.navbar div{
-    margin-left: 60px;
-}
+
 .navbar-iten{        
     color: rgb(187, 187, 187); 
     text-transform: uppercase; 
