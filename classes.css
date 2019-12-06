@@ -1,299 +1,356 @@
-@media (max-width: 768px){    
-    .img-site{
+@media (max-width: 768px) {
+    .img-site {
         width: 288px;
         height: 180px;
-    }   
-    .clearButton{
-        width: 300px; 
-        height: 45px; 
-    }    
+    }
+    .clearButton {
+        width: 300px;
+        height: 45px;
+    }
 }
-@media (max-width: 1100px){    
-    .position-50x50-text{
+
+@media (max-width: 1100px) {
+    .position-50x50-text {
         width: 80%;
     }
-    .position-50x50-img{
+    .position-50x50-img {
         width: 80%;
-    }   
+    }
 }
-@media (min-width: 1100px){    
-    .position-50x50-text{
+
+@media (min-width: 1100px) {
+    .position-50x50-text {
         width: 48%;
     }
-    .position-50x50-img{
+    .position-50x50-img {
         width: 48%;
-    }   
+    }
 }
-@media (min-width: 768px){    
-    .img-site{
+
+@media (min-width: 768px) {
+    .img-site {
         width: 480px;
         height: 300px;
     }
-    .clearButton{
-        width: 450px; 
-        height: 70px; 
+    .clearButton {
+        width: 450px;
+        height: 70px;
     }
-    .clearButton:hover{
-        animation:slidein 2s;  
-        -moz-animation:slidein 1s; /* Firefox */
-        -webkit-animation:slidein 1s; /* Safari e Chrome */
-        -o-animation:slidein 1s; /* Opera */
-        width: 500px; 
+    .clearButton:hover {
+        animation: slidein 2s;
+        -moz-animation: slidein 1s;
+        /* Firefox */
+        -webkit-animation: slidein 1s;
+        /* Safari e Chrome */
+        -o-animation: slidein 1s;
+        /* Opera */
+        width: 500px;
     }
-    .clearButton:not(:hover){
-        -moz-animation:slideout 0.5s; /* Firefox */
-        -webkit-animation:slideout 0.5s; /* Safari e Chrome */
-        -o-animation:slideout 0.5s; /* Opera */
-    }      
+    .clearButton:not(:hover) {
+        -moz-animation: slideout 0.5s;
+        /* Firefox */
+        -webkit-animation: slideout 0.5s;
+        /* Safari e Chrome */
+        -o-animation: slideout 0.5s;
+        /* Opera */
+    }
 }
 
-.social-media{
+.social-media {
     text-align: center;
     text-transform: uppercase;
 }
-.social-media-icon{
+
+.social-media-icon {
     width: 100px;
-    height: 100px;    
+    height: 100px;
     display: inline;
     border-radius: 100%;
-    margin: 20px;        
+    margin: 20px;
 }
-.social-media-icon:hover{
-    -moz-animation:upperIMG 1s; /* Firefox */
-    -webkit-animation:upperIMG 1s; /* Safari e Chrome */
-    -o-animation:upperIMG 1s; /* Opera */
-    transform: scale(1.1); 
+
+.social-media-icon:hover {
+    -moz-animation: upperIMG 1s;
+    /* Firefox */
+    -webkit-animation: upperIMG 1s;
+    /* Safari e Chrome */
+    -o-animation: upperIMG 1s;
+    /* Opera */
+    transform: scale(1.1);
 }
-.social-media-icon:not(:hover){
-    -moz-animation:downIMG 0.5s; /* Firefox */
-    -webkit-animation:downIMG 0.5s; /* Safari e Chrome */
-    -o-animation:downIMG 0.5s; /* Opera */ 
+
+.social-media-icon:not(:hover) {
+    -moz-animation: downIMG 0.5s;
+    /* Firefox */
+    -webkit-animation: downIMG 0.5s;
+    /* Safari e Chrome */
+    -o-animation: downIMG 0.5s;
+    /* Opera */
 }
-.position-50x50-text{
-    text-align: justify;      
-    display: inline-block;    
-    vertical-align: top;  
-    padding: 10px; 
+
+.position-50x50-text {
+    text-align: justify;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
 }
-.position-50x50-img{
-    text-align: center;    
-    display: inline-block;  
-    padding: 10px;    
+
+.position-50x50-img {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
 }
-.games-lobby{    
+
+.games-lobby {
     margin-top: 30px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
     text-align: center;
     background-color: #800000;
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 10px;   
+    padding-bottom: 10px;
 }
-.games-list{      
-    text-align: center;    
+
+.games-list {
+    text-align: center;
     width: 100%;
 }
-.game-img{
+
+.game-img {
     width: 300px;
-    height: 150px;    
+    height: 150px;
 }
-.gameTitle{
+
+.gameTitle {
     position: absolute;
     margin-top: 120px;
     margin-left: 10px;
-    text-transform: uppercase;  
+    text-transform: uppercase;
     opacity: 0;
-    pointer-events: none;  
+    pointer-events: none;
 }
-.game-img:hover{
-    -moz-animation:upperIMG 1s; /* Firefox */
-    -webkit-animation:upperIMG 1s; /* Safari e Chrome */
-    -o-animation:upperIMG 1s; /* Opera */
-    transform: scale(1.1);        
+
+.game-img:hover {
+    -moz-animation: upperIMG 1s;
+    /* Firefox */
+    -webkit-animation: upperIMG 1s;
+    /* Safari e Chrome */
+    -o-animation: upperIMG 1s;
+    /* Opera */
+    transform: scale(1.1);
 }
-.gameCard{
+
+.gameCard {
     display: inline-block;
-    margin: 10px;    
+    margin: 10px;
 }
-.gameCard:hover > .gameTitle{
-    -moz-animation:fadeIn 1s; /* Firefox */
-    -webkit-animation:fadeIn 1s; /* Safari e Chrome */    
+
+.gameCard:hover>.gameTitle {
+    -moz-animation: fadeIn 1s;
+    /* Firefox */
+    -webkit-animation: fadeIn 1s;
+    /* Safari e Chrome */
     opacity: 100;
-    z-index: 1;     
+    z-index: 1;
     background: rgba(0, 0, 0, 0.3)
 }
-.game-img:not(:hover){
-    -moz-animation:downIMG 0.5s; /* Firefox */
-    -webkit-animation:downIMG 0.5s; /* Safari e Chrome */
-    -o-animation:downIMG 0.5s; /* Opera */    
+
+.game-img:not(:hover) {
+    -moz-animation: downIMG 0.5s;
+    /* Firefox */
+    -webkit-animation: downIMG 0.5s;
+    /* Safari e Chrome */
+    -o-animation: downIMG 0.5s;
+    /* Opera */
 }
-.description{
+
+.description {
     text-align: center;
 }
-.brandpos{
+
+.brandpos {
     float: left;
     margin-left: 30px;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.clearButton{
+
+.clearButton {
     background: 0%;
-    color: white;    
+    color: white;
     font-size: 32px;
     border-radius: 50px;
     border-color: white;
     border-style: solid;
-    border-width: 3px;      
-    text-transform: uppercase;  
-    cursor: pointer;     
+    border-width: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
-.clearButton:hover{
+
+.clearButton:hover {
     background: 20%;
     background-color: #8b1a1a;
-    color: white;    
+    color: white;
     font-size: 32px;
     border-radius: 50px;
     border-color: white;
-    border-width: 3px;        
-    text-transform: uppercase;        
+    border-width: 3px;
+    text-transform: uppercase;
 }
 
 @keyframes fadein {
     from {
-      opacity: 0;      
+        opacity: 0;
     }
-        
     to {
         opacity: 100;
     }
 }
 
-@-webkit-keyframes fadein /* Safari e Chrome */{
+@-webkit-keyframes fadein
+/* Safari e Chrome */
+
+{
     from {
-        opacity: 0;      
-      }
-          
-      to {
-          opacity: 100;
-      }
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
 }
 
-@-moz-keyframes fadein /* Firefox */{
+@-moz-keyframes fadein
+/* Firefox */
+
+{
     from {
-        opacity: 0;      
-      }
-          
-      to {
-          opacity: 100;
-      }
+        opacity: 0;
+    }
+    to {
+        opacity: 100;
+    }
 }
 
 @keyframes slidein {
     from {
-      width: 450px;      
+        width: 450px;
     }
-        
     to {
-       width:500px;
+        width: 500px;
     }
 }
 
-@-webkit-keyframes slidein /* Safari e Chrome */{
+@-webkit-keyframes slidein
+/* Safari e Chrome */
+
+{
     from {
-        width: 450px;      
+        width: 450px;
     }
-      
     to {
-        width:500px;
+        width: 500px;
     }
 }
 
-@-moz-keyframes slidein /* Firefox */{
+@-moz-keyframes slidein
+/* Firefox */
+
+{
     from {
-        width: 450px;      
+        width: 450px;
     }
-          
     to {
-         width:500px;
+        width: 500px;
     }
 }
 
 @keyframes slideout {
     from {
-      width: 500px;      
+        width: 500px;
     }
-        
     to {
-       width:450px;
+        width: 450px;
     }
 }
 
-@-webkit-keyframes slideout /* Safari e Chrome */{
+@-webkit-keyframes slideout
+/* Safari e Chrome */
+
+{
     from {
-        width: 500px;      
+        width: 500px;
     }
-      
     to {
-       width:450px;
+        width: 450px;
     }
 }
 
-@-moz-keyframes slideout /* Firefox */{
+@-moz-keyframes slideout
+/* Firefox */
+
+{
     from {
-        width: 500px;      
+        width: 500px;
     }
-      
     to {
-       width:450px;
+        width: 450px;
     }
 }
 
 @keyframes upperIMG {
     from {
-        transform: scale(1);      
+        transform: scale(1);
     }
-        
     to {
         transform: scale(1.1);
     }
 }
 
-@-webkit-keyframes upperIMG /* Safari e Chrome */{
+@-webkit-keyframes upperIMG
+/* Safari e Chrome */
+
+{
     from {
-        transform: scale(1);      
+        transform: scale(1);
     }
-        
     to {
         transform: scale(1.1);
     }
 }
 
-@-moz-keyframes upperIMG /* Firefox */{
+@-moz-keyframes upperIMG
+/* Firefox */
+
+{
     from {
-        transform: scale(1);      
+        transform: scale(1);
     }
-        
     to {
         transform: scale(1.1);
     }
 }
 
-@-webkit-keyframes downIMG /* Safari e Chrome */{
+@-webkit-keyframes downIMG
+/* Safari e Chrome */
+
+{
     from {
-        transform: scale(1.1);   
+        transform: scale(1.1);
     }
-      
     to {
         transform: scale(1);
     }
 }
 
-@-moz-keyframes downIMG /* Firefox */{
+@-moz-keyframes downIMG
+/* Firefox */
+
+{
     from {
-        transform: scale(1.1);   
+        transform: scale(1.1);
     }
-      
     to {
         transform: scale(1);
     }
